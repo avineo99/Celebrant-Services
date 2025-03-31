@@ -301,7 +301,14 @@ color: #515151;
     width: 600px;
     height: 600px;
 }
-
+.form-group select::before{
+content: '';
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+font-family:fontawsome;
+}
 
 
 
@@ -355,6 +362,10 @@ button#ScrollToTop {
 }
 .carousel-text h1, .carousel-text p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
 }
 @media(min-width:992px){
     div#navbarOffcanvas {
@@ -633,7 +644,7 @@ button#ScrollToTop {
     }
    
     .navbar-brand {
-        width: 160px;
+        width: 54%;
     }
     .abt-lft.w-50 {
         width: 100% !important;
