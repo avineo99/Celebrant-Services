@@ -175,18 +175,18 @@ a{
     font-weight: 400;
     font-family: "Antic Didone", serif;
 }
-.btn-primary {
-    color: #fff;
-    background-color: #7221B3;
-    border-color: #7221B3;
-}
+
 .btn-light{
     color: #000;
     background-color: transparent;
     border-color: #31D8E3;
 }
 
-
+.btn-light:hover{
+    color: #000;
+    background-color: #31D8E3;
+    border-color: #31D8E3;
+}
 
 /* pages css start */
 .navbar-brand{
@@ -242,25 +242,6 @@ a{
     transform: translateY(-50%);
 }
 
-
-
-
-/* .carousel-item::before{
- content: '';
- position: absolute;
- top: 0;
- left: 0;
- height: 100%;
- width: 100%;
- background-color: rgb(0 0 0 / 20%);
-} */
-/* .carousel-item{
-    background-image: url(../images/hero-banner.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-} */
 
 .banner-wrap img{
     object-fit: contain;
@@ -339,9 +320,7 @@ footer.bg-info{
 .footer-wrap ul li a:hover {
     color: #C7C7C7;
 }
-/* .footer-logo {
-    max-width: 297px;
-} */
+
 .footer-wrap  ul li strong{
     background: linear-gradient(90deg, #5CE0E6 0%, #8C52FF 100%);
     background-clip: text;
@@ -537,12 +516,7 @@ button#ScrollToTop {
     .submit-btn {
         padding: 10px 38px;
     }
-    /* .fs-16 {
-        font-size: 12px;
-    } */
-    /* .footer-wrap ul li a, .footer-wrap ul li {
-        font-size: 11px;
-    } */
+  
     .fs-13 {
         font-size: 10px;
     }
