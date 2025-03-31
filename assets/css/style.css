@@ -344,6 +344,11 @@ button#ScrollToTop {
     z-index: 99;
     color: #000;
 }
+.submit-btn {
+    border: 2px solid #ffffff !important;
+    padding: 13px 50px !important;
+    border-radius: 30px;
+}
 @media(min-width:992px){
     div#navbarOffcanvas {
         position: inherit !important;
@@ -360,6 +365,7 @@ button#ScrollToTop {
         padding: 0;
         overflow-y: auto;
     }
+   
 }
 
 @media(max-width:1500px){
@@ -514,7 +520,7 @@ button#ScrollToTop {
         height: 120px;
     }
     .submit-btn {
-        padding: 10px 38px;
+        padding: 11px 30px !important;
     }
   
     .fs-13 {
