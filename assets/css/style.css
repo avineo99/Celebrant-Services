@@ -349,6 +349,13 @@ button#ScrollToTop {
     padding: 13px 50px !important;
     border-radius: 30px;
 }
+.submit-btn:hover{
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+.carousel-text h1, .carousel-text p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
 @media(min-width:992px){
     div#navbarOffcanvas {
         position: inherit !important;
